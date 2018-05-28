@@ -90,7 +90,7 @@ public final class AClass extends ADeclaration {
     public final VivifyingMap<String, AExpression> fieldInits =
         createFieldInitMap();
 
-    private final String className;
+    public final String className;
 
     // debug fields to keep track of all classes created
     // private static List<AClass> debugAllClasses = new ArrayList<AClass>();
